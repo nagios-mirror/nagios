@@ -43,7 +43,7 @@ typedef void *va_list;
 
 /* Extracted from sendmail 8.8.5 */
 #ifndef lint
-static char sccsid[] = "@(#)$Id: snprintf.c,v 1.1 2002/02/26 04:03:37 egalstad Exp $ excerpted from conf.c 8.333 (Berkeley) 1/21/97";
+static char sccsid[] = "@(#)$Id: snprintf.c,v 1.1.1.1 2002/02/26 04:03:37 egalstad Exp $ excerpted from conf.c 8.333 (Berkeley) 1/21/97";
 #endif /* not lint */
 # ifdef __STDC__
 #include <stdio.h>
@@ -96,7 +96,7 @@ static char sccsid[] = "@(#)$Id: snprintf.c,v 1.1 2002/02/26 04:03:37 egalstad E
  * causing nast effects.
  **************************************************************/
 
-/*static char _id[] = "$Id: snprintf.c,v 1.1 2002/02/26 04:03:37 egalstad Exp $";*/
+/*static char _id[] = "$Id: snprintf.c,v 1.1.1.1 2002/02/26 04:03:37 egalstad Exp $";*/
 static void dopr();
 static char *end;
 #ifndef _SCO_DS
