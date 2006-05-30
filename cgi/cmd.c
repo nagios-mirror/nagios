@@ -3,7 +3,7 @@
  * CMD.C -  Nagios Command CGI
  *
  * Copyright (c) 1999-2003 Ethan Galstad (nagios@nagios.org)
- * Last Modified: 05-30-2003
+ * Last Modified: 05-18-2006
  *
  * License:
  * 
