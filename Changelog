@@ -3,10 +3,17 @@ Nagios 2.x Change Log
 #####################
 
 
+2.13 - ??/??/2008
+-----------------
+* Fix for Apache group membership in RPM spec file
+* Fix for improper notification propagation command processing
+
+
+
 2.12 - 05/19/2008
 -----------------
 * Minor bug fixes in CGIs to ensure extra host/servicegroup url strings are terminated properly
-* Patches for possible XSS vulnerability in CGIs (CVE-2007-5803) - SUSE Linux team
+* Patches for possible XSS vulnerability in CGIs (CVE-2007-5803) - Florian Weimer & SUSE Linux team
 
 
 

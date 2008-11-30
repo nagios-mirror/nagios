@@ -2,8 +2,8 @@
  *
  * COMMANDS.C - External command functions for Nagios
  *
- * Copyright (c) 1999-2007 Ethan Galstad (nagios@nagios.org)
- * Last Modified:   10-20-2007
+ * Copyright (c) 1999-2008 Ethan Galstad (nagios@nagios.org)
+ * Last Modified:   11-30-2008
  *
  * License:
  *
@@ -978,9 +978,11 @@ int process_host_command(int cmd, time_t entry_time, char *args){
 
 	case CMD_ENABLE_ALL_NOTIFICATIONS_BEYOND_HOST:
 		enable_and_propagate_notifications(temp_host,0,FALSE,TRUE,TRUE);
+		break;
 
 	case CMD_DISABLE_ALL_NOTIFICATIONS_BEYOND_HOST:
 		disable_and_propagate_notifications(temp_host,0,FALSE,TRUE,TRUE);
+		break;
 
 	case CMD_ENABLE_HOST_SVC_NOTIFICATIONS:
 	case CMD_DISABLE_HOST_SVC_NOTIFICATIONS:
